@@ -1,0 +1,179 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video
+{
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:100%;
+	font:inherit;
+	vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';
+	content:none}table{border-collapse:collapse;
+	border-spacing:0
+}
+
+
+.myButton {
+  -moz-box-shadow: 0px 10px 14px -7px #276873;
+  -webkit-box-shadow: 0px 10px 14px -7px #276873;
+  box-shadow: 0px 10px 14px -7px #276873;
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #599bb3), color-stop(1, #408c99));
+  background:-moz-linear-gradient(top, #599bb3 5%, #408c99 100%);
+  background:-webkit-linear-gradient(top, #599bb3 5%, #408c99 100%);
+  background:-o-linear-gradient(top, #599bb3 5%, #408c99 100%);
+  background:-ms-linear-gradient(top, #599bb3 5%, #408c99 100%);
+  background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#599bb3', endColorstr='#408c99',GradientType=0);
+  background-color:#599bb3;
+  -moz-border-radius:8px;
+  -webkit-border-radius:8px;
+  border-radius:8px;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:20px;
+  font-weight:bold;
+  padding:13px 32px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #408c99), color-stop(1, #599bb3));
+  background:-moz-linear-gradient(top, #408c99 5%, #599bb3 100%);
+  background:-webkit-linear-gradient(top, #408c99 5%, #599bb3 100%);
+  background:-o-linear-gradient(top, #408c99 5%, #599bb3 100%);
+  background:-ms-linear-gradient(top, #408c99 5%, #599bb3 100%);
+  background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#408c99', endColorstr='#599bb3',GradientType=0);
+  background-color:#408c99;
+}
+.myButton:active {
+  position:relative;
+  top:1px;
+}
+
+.button {
+	background-color:transparent;
+	-moz-border-radius:9px;
+	-webkit-border-radius:9px;
+	border-radius:9px;
+	border:2px solid #3787d6;
+	display:inline-block;
+	cursor:pointer;
+	color:#4c94e0;
+	font-family:Georgia;
+	font-size:22px;
+	font-weight:bold;
+	padding:17px 20px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3a88d6;
+}
+.button:hover {
+	background-color:transparent;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+html, body {
+  background: black;
+  font-family: 'Open Sans Condensed', sans-serif;
+  overflow: hidden;
+}
+
+img {
+  margin: 0 auto;
+  display: block;
+  min-width: 0px !important;
+
+}
+
+.bg {
+  position: absolute;
+  right: 0;
+}
+
+.bg video {
+  width: auto;
+  height: auto;
+  z-index: 0;
+  background-size: cover;
+  display: block;
+  float: left;
+}
+
+.bg_texture {
+  background: url("Resources/Images/texture.png");
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.main {
+  position: absolute;
+  z-index: 2;
+  height: 150%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.inner {
+  display: block;
+  padding-left: 150px;
+  padding-bottom: 100px;
+
+}
+@media (max-width: 900px) {
+  .inner {
+    padding: 0;
+  }
+}
+
+.img-wrapper {
+  display: block;
+  position: relative;
+  height: auto;
+}
+
+.img-wrapper img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+#logo {
+  display: block;
+  max-width: 600px;
+  height auto;
+  width: 100%;
+}
+
+#num {
+  max-width: 437px;
+  opacity: 0;
+}
+#butt, #butt1, #butt2{
+ 
+  opacity: 0;
+}
+#coming {
+  max-width: 539px;
+  opacity: 0;
+}
+
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  background: center no-repeat #191919;
+}
+/*Copy/Pasta From Ralph*/
