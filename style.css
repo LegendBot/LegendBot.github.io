@@ -115,7 +115,7 @@ img {
 .main {
   position: absolute;
   z-index: 2;
-  height: 150%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -123,8 +123,8 @@ img {
 
 .inner {
   display: block;
-  padding-left: 150px;
-  padding-bottom: 100px;
+  padding-left: 275px;
+  padding-bottom: 300px;
 
 }
 @media (max-width: 900px) {
