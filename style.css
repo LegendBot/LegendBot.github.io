@@ -95,7 +95,7 @@ img {
 
 .bg video {
   width: auto;
-  height: auto;
+  height: 100%;
   z-index: 0;
   background-size: cover;
   display: block;
@@ -123,8 +123,8 @@ img {
 
 .inner {
   display: block;
-  padding-left: 275px;
-  padding-bottom: 300px;
+  padding-left: 400px;
+  padding-bottom: 400px;
 
 }
 @media (max-width: 900px) {
